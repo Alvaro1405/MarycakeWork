@@ -1,0 +1,223 @@
+/* Reset CSS */
+
+/* CSS HEX */
+:root {/* CSS HEX */
+    --buff: #c89b7bff;
+    --english-violet: #4a4063ff;
+    --brilliant-rose: #e15a97ff;
+    --icterine: #fff94fff;
+    --cornflower-blue: #758bfdff;
+    --cream:  #FCE6C9;
+    --brown: #754805;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cambria', sans-serif;
+}
+
+body {
+    background-image: url(trabajo/muchospostres.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    line-height: 1.0;
+    color: #ffdfaffa;
+    }
+
+
+    .contact-1{ background-color: #110f0b7e;
+        border-style: outset;
+        border-radius: 20px;
+        border-color: #fdd18b;
+        text-align: center;
+        width: 100px;
+        height: 22px;
+    }
+
+
+.container {
+    width: 70% ;
+    margin: 0 auto;
+}
+
+header {
+    background: var(--buff);
+    padding: 1rem;
+}
+
+header h1 {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    color: var(--cream);
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: var(--brown);
+    text-decoration-color: #f7c081d3;
+}
+
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    height: 200px;
+    display: flex;
+    margin-top: 8rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--brown);
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.7rem;
+    padding: 4px;  
+}
+
+.hero p {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    background-color: #110f0b7e;
+    color: #fdd18b ;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 5rem;
+    display: inline-flex;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.about .container {
+    padding: 4rem 0;
+    width: 65%;
+}
+
+.about h2, .products h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fdd18b;
+    background-color: #110f0b7e;
+    border-radius: 30px;
+}
+
+.about p, .products p {
+    text-align: center;
+}
+.desc-1{
+    background-color: rgba(170, 110, 67, 0.788);
+    color:#fce3bc;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 30px;
+}
+.about .container .desc-1{
+    padding: 1.5rem;
+    line-height: 2;
+}
+
+#Desc-h2{
+    background-color: #fdd18b94;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex: 2;
+    margin: 1rem;
+    padding: 1rem;
+    background: #030202e0;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.product img {
+    width: 100%;
+    min-height: 190px;
+    border-radius: 10px;
+    text-align: center;
+    object-fit: cover; 
+}
+
+.product h3 {
+    margin: 0.5rem 0;
+}
+
+.contact form {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.row-form{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.row-form input, textarea{
+width: 40%;
+}
+
+.row-form button{
+    width: 41%;
+    margin-left: 13%;
+}
+
+.contact label {
+    margin-bottom: 0.5rem;
+
+}
+
+.contact input, .contact textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #0a0802;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 0.5rem;
+    background: var(--buff);
+    color: #000000;
+    border: solid;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.contact button:hover {
+    background: var(--brown);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
