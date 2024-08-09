@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaryCake Pastelería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kalnia+Glaze:wght@100..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <divli class="container">
+        <h1>MaryCake Pastelería</h1>
+        <nav><ul>          
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#products">Productos</a></li>
+            <li><a target="_blank" href="contacto.html">Contacto</a></li> 
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <h2 id="Desc-h2">Los Mejores Postres Para Toda Ocasion y Eventos</h2>
+        
+        <p class="desc-1"><br >
+          Exquisitos, frescos, saludables y artesanales. <br>¡Descubre nuestros postres <b>Gluten Free!</b></br></p>
+        </p>
+        <a href="#products" class="btn">Ver Productos</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Sobre Nosotros</h2>
+        <p class="desc-1">
+          En MaryCake Pastelería, nos especializamos en crear postres únicos y
+          deliciosos para cada ocasión. Utilizamos ingredientes de la más alta
+          calidad, incluyendo opciones integrales y saludables para satisfacer a
+          todos nuestros clientes.<br>
+          Tambien nos especializamos en la venta de materia prima e insumos para pasteleria, resposteria y panaderia 
+          </p>
+        
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="container">
+        <h2>Nuestros Productos</h2>
+        <div class="product-grid">
+          <div class="product">
+            <img src="trabajo/torta.png" alt="Torta" />
+            <h3>Tortas</h3>
+            <p>Perfectas para cumpleaños, bodas y cualquier celebración.</p>
+          </div>
+          <div class="product">
+            <img src="trabajo/pie.jpg" alt="Pie de Limón" />
+            <h3>Pie de Limón</h3>
+            <p>Un clásico refrescante con un toque de dulzura.</p>
+          </div>
+          <div class="product">
+            <img src="trabajo/redvelvet.jpg" alt="Red Velvet" />
+            <h3>Red Velvet</h3>
+            <p>Un pastel elegante y delicioso con su distintivo color rojo.</p>
+          </div>
+          <div class="product">
+            <img src="trabajo/galletas.jpg" alt="Galletas" />
+            <h3>Galletas</h3>
+            <p>
+              Deliciosas galletas integrales para disfrutar en cualquier
+              momento.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form>
+          <label for="name" class="contact-1">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email" class="contact-1">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message" class="contact-1">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 MaryCake Pastelería. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
